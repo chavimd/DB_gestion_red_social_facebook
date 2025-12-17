@@ -1,0 +1,86 @@
+[
+  {
+    "_id": { "$oid": "656f1a1e8b1e4e5a1b2c3d01" },
+    "tipo_publicacion": "Texto",
+    "contenido": "¡Hola a todos! Mi primera publicación aquí.",
+    "fecha_publicacion": { "$date": "2024-01-11T10:00:00Z" },
+    "usuario": {
+      "id_user": 1,
+      "nombre": "Juan Pérez",
+      "pais": "Bolivia",
+      "genero": "Masculino"
+    },
+    "metricas": {
+      "total_reacciones": 10,
+      "total_comentarios": 2
+    },
+    "reacciones": [
+      { "usuario": "Ana García", "tipo": "Me gusta", "fecha": "2024-01-11" },
+      { "usuario": "Luis Ramos", "tipo": "Me encanta", "fecha": "2024-01-12" }
+    ],
+    "comentarios": [
+      { "usuario": "Ana García", "texto": "¡Bienvenido Juan!", "fecha": "2024-01-11" }
+    ]
+  },
+  {
+    "_id": { "$oid": "656f1a1e8b1e4e5a1b2c3d02" },
+    "tipo_publicacion": "Foto",
+    "contenido": "Hermoso atardecer de hoy. #Naturaleza",
+    "fecha_publicacion": { "$date": "2024-01-12T18:30:00Z" },
+    "usuario": {
+      "id_user": 2,
+      "nombre": "Ana García",
+      "pais": "Argentina",
+      "genero": "Femenino"
+    },
+    "metricas": {
+      "total_reacciones": 25,
+      "total_comentarios": 5
+    },
+    "reacciones": [
+      { "usuario": "Juan Pérez", "tipo": "Me encanta", "fecha": "2024-01-12" },
+      { "usuario": "Carlos López", "tipo": "Me asombra", "fecha": "2024-01-13" }
+    ],
+    "comentarios": [
+      { "usuario": "Juan Pérez", "texto": "Fotaza Ana", "fecha": "2024-01-12" }
+    ]
+  },
+  {
+    "_id": { "$oid": "656f1a1e8b1e4e5a1b2c3d03" },
+    "tipo_publicacion": "Video",
+    "contenido": "Tutorial de cocina rápida",
+    "fecha_publicacion": { "$date": "2024-01-15T12:00:00Z" },
+    "usuario": {
+      "id_user": 4,
+      "nombre": "Esmeralda Medina",
+      "pais": "Bolivia",
+      "genero": "Femenino"
+    },
+    "metricas": {
+      "total_reacciones": 50,
+      "total_comentarios": 10
+    },
+    "reacciones": [],
+    "comentarios": []
+  },
+  {
+    "_id": { "$oid": "656f1a1e8b1e4e5a1b2c3d04" },
+    "tipo_publicacion": "Enlace",
+    "contenido": "Noticia importante sobre tecnología",
+    "fecha_publicacion": { "$date": "2024-02-01T09:00:00Z" },
+    "usuario": {
+      "id_user": 6,
+      "nombre": "Carlos López",
+      "pais": "Brasil",
+      "genero": "Masculino"
+    },
+    "metricas": {
+      "total_reacciones": 5,
+      "total_comentarios": 0
+    },
+    "reacciones": [
+      { "usuario": "Sandra Arce", "tipo": "Me enoja", "fecha": "2024-02-01" }
+    ],
+    "comentarios": []
+  }
+] 	
